@@ -1,3 +1,3 @@
 # palindrome-word
 
-![](images/palindrome.gif)
+![](images/palindrome-word.gif)
