@@ -1,1 +1,3 @@
-# checker-js
+# palindrome-word
+
+![](images/palindrome.gif)
