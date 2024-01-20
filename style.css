@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 .main {
@@ -12,6 +13,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container.word {
+  background-color: #5a2d6f9c;
 }
 
 .container {
@@ -28,7 +33,7 @@
 h2 {
   text-align: center;
   margin-bottom: 50px;
-  color: #5a2d6f;
+  color: #fff;
 }
 
 input {
@@ -52,6 +57,11 @@ button {
   color: #fff;
   background: #9d0191;
   cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+button:active {
+  transform: translate(-6px, 6px);
 }
 
 p.result {
@@ -59,5 +69,71 @@ p.result {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
-  color: #5a2d6f;
+  color: #fff;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: -210px;
+}
+
+.footer p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #605a5a;
+  letter-spacing: 1px;
+}
+.footer p i {
+  color: rgb(145, 33, 198);
+}
+
+.footer p span {
+  background-image: linear-gradient(144deg, #00bbce 10%, #1296e7 20%, #b822de);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.a {
+  color: #8a4fbe;
+}
+
+.pulse {
+  transform-origin: 70% 70%;
+  animation-name: pulse-animation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Animation */
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.08);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
