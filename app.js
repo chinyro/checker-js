@@ -1,5 +1,8 @@
-let primaryBtn = document.querySelector('#primary-btn');
+let checkBtn = document.querySelector('#btn');
 let result = document.querySelector('#result');
 
-primaryBtn.addEventListener('click', submitRequest);
+function checkWord() {
+  alert('is working!');
+}
 
+checkBtn.addEventListener('click', checkWord);
