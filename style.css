@@ -75,7 +75,7 @@ p.result {
 /* Footer */
 
 .footer {
-  margin-top: -210px;
+  margin-top: -150px;
 }
 
 .footer p {
@@ -108,6 +108,8 @@ p.result {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
+/* Responsive */
 
 /* Animation */
 
